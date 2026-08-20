@@ -113,14 +113,20 @@ def upload_draft(args: argparse.Namespace) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Upload a Quran MP4 to TikTok as a draft.")
-    parser.add_argument("video", help="Path to MP4")
+    parser.add_argument("video", nargs="?", help="Path to MP4")
+    parser.add_argument("--oauth-only", action="store_true", help="Run OAuth and save tokens without uploading a video.")
     parser.add_argument("--token-file", default="tiktok_token.json")
     parser.add_argument("--client-key", default=os.getenv("TIKTOK_CLIENT_KEY"))
     parser.add_argument("--client-secret", default=os.getenv("TIKTOK_CLIENT_SECRET"))
     parser.add_argument("--redirect-uri", default=REDIRECT_URI)
     args = parser.parse_args()
     try:
-        upload_draft(args)
+        if args.oauth_only:
+            auth(args)
+        else:
+            if not args.video:
+                parser.error("video is required unless --oauth-only is used")
+            upload_draft(args)
     except requests.HTTPError as exc:
         print(f"TikTok API error: {exc.response.text}", file=sys.stderr)
         return 1
