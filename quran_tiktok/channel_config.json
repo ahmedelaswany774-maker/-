@@ -1,0 +1,12 @@
+{
+  "channel_name_ar": "نور الآية",
+  "channel_name_en": "Noor Ayah",
+  "handle": "@noor_ayah_daily",
+  "daily_count": 1,
+  "translation": "Saheeh International",
+  "reciter": "Mishari Rashid al-`Afasy",
+  "hashtags": ["#قرآن", "#تلاوة", "#اسلام", "#quran", "#quranrecitation", "#islam", "#fyp"],
+  "caption_template_ar": "استمع وتدبر — {surah_name_ar}، الآية {surah}:{ayah}",
+  "caption_template_en": "Listen and reflect — {surah_name}, verse {surah}:{ayah}",
+  "review_before_posting": true
+}

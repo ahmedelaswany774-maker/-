@@ -1,0 +1,9 @@
+output/
+*.mp3
+*.mp4
+*.jpg
+*.png
+tiktok_token.json
+__pycache__/
+*.pyc
+.env
