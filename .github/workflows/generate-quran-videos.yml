@@ -3,7 +3,7 @@ name: Generate Noor Ayah Videos
 on:
   schedule:
     # 21:00 Egypt time (UTC+3) during the configured timezone period.
-    - cron: "0 18 * * *"
+    - cron: "0 */4 * * *"
   workflow_dispatch:
 
 permissions:

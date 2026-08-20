@@ -16,12 +16,14 @@ def main() -> int:
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     count = int(config.get("daily_count", 1))
     handle = str(config.get("handle", "@noor_ayah_daily"))
+    target_seconds = float(config.get("target_seconds", 58))
     command = [
         sys.executable,
         str(ROOT / "generate_quran_tiktok.py"),
         "--count", str(count),
         "--output", str(OUTPUT),
         "--handle", handle,
+        "--target-seconds", str(target_seconds),
     ]
     completed = subprocess.run(command, cwd=ROOT)
     if completed.returncode != 0:

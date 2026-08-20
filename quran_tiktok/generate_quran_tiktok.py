@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Generate vertical Quran TikTok videos from non-repeating random ayahs.
+"""Generate vertical Quran TikTok videos from non-repeating Quran segments.
 
 The generator creates local MP4 files only. It does not publish automatically.
-It stores used ayah keys in state.json and marks an ayah used only after
-successful video creation.
+Each video combines consecutive unused ayahs until the target audio duration
+is reached, and state.json is updated only after successful video creation.
 """
 from __future__ import annotations
 
@@ -87,6 +87,29 @@ def download_audio(surah: int, ayah: int, destination: Path) -> None:
     response = requests.get(url, timeout=TIMEOUT, headers={"User-Agent": "quran-tiktok-generator/1.0"})
     response.raise_for_status()
     destination.write_bytes(response.content)
+
+
+def audio_duration(path: Path) -> float:
+    result = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+         "-of", "default=noprint_wrappers=1:nokey=1", str(path)],
+        capture_output=True, text=True, check=True,
+    )
+    return float(result.stdout.strip())
+
+
+def concat_audio(parts: list[Path], destination: Path) -> None:
+    manifest = destination.with_suffix(".concat.txt")
+    manifest.write_text("\n".join(f"file '{part.as_posix()}'" for part in parts) + "\n", encoding="utf-8")
+    try:
+        subprocess.run(
+            ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+             "-f", "concat", "-safe", "0", "-i", str(manifest),
+             "-c", "copy", str(destination)],
+            check=True,
+        )
+    finally:
+        manifest.unlink(missing_ok=True)
 
 
 def font(name: str, size: int) -> ImageFont.FreeTypeFont:
@@ -222,45 +245,107 @@ def safe_slug(text: str) -> str:
     return re.sub(r"[^a-zA-Z0-9_-]+", "_", text).strip("_")
 
 
-def generate_one(chapters: list[dict[str, Any]], rows: list[tuple[int, int, int]], state: dict[str, Any], root: Path, rng: random.Random, handle: str) -> Path:
+def generate_one(
+    chapters: list[dict[str, Any]],
+    rows: list[tuple[int, int, int]],
+    state: dict[str, Any],
+    root: Path,
+    rng: random.Random,
+    handle: str,
+    target_seconds: float,
+) -> Path:
     used = set(state.get("used", []))
-    surah, ayah, global_ayah = choose_ayah(rows, used, rng)
-    chapter = chapters[surah - 1]
-    key = f"{surah}:{ayah}"
+    available_indices = [i for i, row in enumerate(rows) if f"{row[0]}:{row[1]}" not in used]
+    if not available_indices:
+        raise RuntimeError("All 6236 ayahs have already been used. Remove state.json to restart.")
+
+    start_index = rng.choice(available_indices)
+    start_surah, start_ayah, start_global = rows[start_index]
+    chapter = chapters[start_surah - 1]
     work = root / "work"
     output_dir = root / "ready_to_post"
     work.mkdir(parents=True, exist_ok=True)
     output_dir.mkdir(parents=True, exist_ok=True)
-    stem = f"{surah:03d}_{ayah:03d}_{safe_slug(chapter['name'])}"
+    stem = f"{start_surah:03d}_{start_ayah:03d}_{safe_slug(chapter['name'])}"
     frame = work / f"{stem}.jpg"
     audio = work / f"{stem}.mp3"
     output = output_dir / f"{stem}.mp4"
     metadata = output_dir / f"{stem}.json"
 
-    print(f"Generating {key} — {chapter['name']} — global ayah {global_ayah}")
-    arabic, english = fetch_ayah(surah, ayah)
-    download_audio(surah, ayah, audio)
-    create_frame(frame, chapter, surah, ayah, arabic, english, handle)
+    selected: list[dict[str, Any]] = []
+    audio_parts: list[Path] = []
+    total_seconds = 0.0
+    for offset in range(min(12, len(rows))):
+        row = rows[(start_index + offset) % len(rows)]
+        surah, ayah, global_ayah = row
+        key = f"{surah}:{ayah}"
+        if key in used or any(item["key"] == key for item in selected):
+            continue
+        part = work / f"{stem}_part_{len(selected) + 1:02d}.mp3"
+        print(f"Fetching segment {key} — {chapters[surah - 1]['name']}")
+        arabic_part, english_part = fetch_ayah(surah, ayah)
+        download_audio(surah, ayah, part)
+        selected.append({
+            "key": key,
+            "surah": surah,
+            "ayah": ayah,
+            "global_ayah": global_ayah,
+            "arabic": arabic_part,
+            "english": english_part,
+            "audio": part,
+        })
+        audio_parts.append(part)
+        total_seconds += audio_duration(part)
+        if total_seconds >= target_seconds:
+            break
+
+    if not selected:
+        raise RuntimeError("Could not select an unused Quran segment.")
+
+    first = selected[0]
+    last = selected[-1]
+    print(f"Generating {first['key']}-{last['ayah']} — {chapter['name']} — {total_seconds:.1f}s audio")
+    concat_audio(audio_parts, audio)
+    arabic = "\n\n".join(item["arabic"] for item in selected)
+    english = "\n\n".join(item["english"] for item in selected)
+    create_frame(frame, chapter, first["surah"], first["ayah"], arabic, english, handle)
     render_video(frame, audio, output)
+
+    segment_keys = [item["key"] for item in selected]
     metadata.write_text(json.dumps({
-        "ayah_key": key,
-        "surah": surah,
+        "ayah_key": first["key"],
+        "ayah_keys": segment_keys,
+        "surah": first["surah"],
         "surah_name": chapter["name"],
         "surah_name_ar": chapter["arabic"],
-        "ayah": ayah,
-        "global_ayah": global_ayah,
+        "ayah": first["ayah"],
+        "ayah_to": last["ayah"],
+        "global_ayah": first["global_ayah"],
         "reciter": RECITER,
         "translation": TRANSLATION,
-        "caption": f"{chapter['name']} {surah}:{ayah} | Mishari Alafasy\\n#quran #islam #fyp #quranrecitation",
+        "target_seconds": target_seconds,
+        "audio_seconds": round(total_seconds, 2),
+        "caption": f"{chapter['name']} {first['surah']}:{first['ayah']}-{last['ayah']} | Mishari Alafasy\n#quran #islam #fyp #quranrecitation",
         "sources": {
-            "text": f"{API_BASE}/ayah/{surah}:{ayah}/quran-uthmani",
-            "translation": f"{API_BASE}/ayah/{surah}:{ayah}/en.sahih",
-            "audio": f"{AUDIO_BASE}/{surah:03d}{ayah:03d}.mp3",
+            "segments": [
+                {
+                    "ayah": item["key"],
+                    "text": f"{API_BASE}/ayah/{item['key']}/quran-uthmani",
+                    "translation": f"{API_BASE}/ayah/{item['key']}/en.sahih",
+                    "audio": f"{AUDIO_BASE}/{item['surah']:03d}{item['ayah']:03d}.mp3",
+                }
+                for item in selected
+            ]
         },
         "created_at": int(time.time()),
     }, ensure_ascii=False, indent=2), encoding="utf-8")
-    state.setdefault("used", []).append(key)
-    state.setdefault("generated", []).append({"ayah_key": key, "file": str(output), "created_at": int(time.time())})
+    state.setdefault("used", []).extend(segment_keys)
+    state.setdefault("generated", []).append({
+        "ayah_key": first["key"],
+        "ayah_keys": segment_keys,
+        "file": str(output),
+        "created_at": int(time.time()),
+    })
     return output
 
 
@@ -271,6 +356,7 @@ def main() -> int:
     parser.add_argument("--seed", type=int, default=None, help="Optional random seed for reproducible selection")
     parser.add_argument("--state", default=None, help="Optional path to state JSON")
     parser.add_argument("--handle", default="@quran_daily_reflection", help="TikTok handle shown as watermark")
+    parser.add_argument("--target-seconds", type=float, default=58.0, help="Target audio duration per video")
     args = parser.parse_args()
     if args.count < 1:
         parser.error("--count must be at least 1")
@@ -287,7 +373,7 @@ def main() -> int:
         if len(rows) != 6236:
             raise RuntimeError(f"Expected 6236 ayahs, received {len(rows)}")
         for _ in range(args.count):
-            output = generate_one(chapters, rows, state, root, rng, args.handle)
+            output = generate_one(chapters, rows, state, root, rng, args.handle, args.target_seconds)
             save_state(state_path, state)
             print(f"Created: {output}")
     except Exception as exc:
