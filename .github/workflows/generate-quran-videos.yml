@@ -1,0 +1,61 @@
+name: Generate Noor Ayah Videos
+
+on:
+  schedule:
+    # 21:00 Egypt time (UTC+3) during the configured timezone period.
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: noor-ayah-generation
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: quran_tiktok/requirements.txt
+
+      - name: Install dependencies
+        run: python -m pip install -r quran_tiktok/requirements.txt
+
+      - name: Generate scheduled video
+        working-directory: quran_tiktok
+        run: python run_channel.py
+
+      - name: Upload generated videos
+        uses: actions/upload-artifact@v4
+        with:
+          name: noor-ayah-${{ github.run_number }}
+          path: |
+            quran_tiktok/output/ready_to_post/*.mp4
+            quran_tiktok/output/ready_to_post/*.json
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Persist non-repetition state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f quran_tiktok/output/state.json
+          if git diff --cached --quiet; then
+            echo "No state change to commit."
+            exit 0
+          fi
+          git commit -m "chore: update Quran generation state [skip ci]"
+          git push
