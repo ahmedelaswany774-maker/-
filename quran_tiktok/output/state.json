@@ -20,7 +20,10 @@
     "26:31",
     "26:32",
     "26:33",
-    "26:34"
+    "26:34",
+    "6:17",
+    "6:18",
+    "6:19"
   ],
   "generated": [
     {
@@ -81,6 +84,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/026_028_Ash-Shu_araa.mp4",
       "created_at": 1787257697
+    },
+    {
+      "ayah_key": "6:17",
+      "ayah_keys": [
+        "6:17",
+        "6:18",
+        "6:19"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/006_017_Al-An_aam.mp4",
+      "created_at": 1787274967
     }
   ]
 }
