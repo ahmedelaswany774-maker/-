@@ -65,7 +65,9 @@
     "48:3",
     "48:4",
     "48:5",
-    "48:6"
+    "48:6",
+    "2:228",
+    "2:229"
   ],
   "generated": [
     {
@@ -234,6 +236,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/048_003_Al-Fath.mp4",
       "created_at": 1787387398
+    },
+    {
+      "ayah_key": "2:228",
+      "ayah_keys": [
+        "2:228",
+        "2:229"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/002_228_Al-Baqara.mp4",
+      "created_at": 1787402286
     }
   ]
 }
