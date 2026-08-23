@@ -97,7 +97,9 @@
     "19:67",
     "19:68",
     "19:69",
-    "19:70"
+    "19:70",
+    "7:72",
+    "7:73"
   ],
   "generated": [
     {
@@ -340,6 +342,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/019_066_Maryam.mp4",
       "created_at": 1787473782
+    },
+    {
+      "ayah_key": "7:72",
+      "ayah_keys": [
+        "7:72",
+        "7:73"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/007_072_Al-A_raaf.mp4",
+      "created_at": 1787488733
     }
   ]
 }
