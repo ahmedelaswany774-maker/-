@@ -92,7 +92,12 @@
     "18:70",
     "18:71",
     "18:72",
-    "18:73"
+    "18:73",
+    "19:66",
+    "19:67",
+    "19:68",
+    "19:69",
+    "19:70"
   ],
   "generated": [
     {
@@ -323,6 +328,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/018_068_Al-Kahf.mp4",
       "created_at": 1787459845
+    },
+    {
+      "ayah_key": "19:66",
+      "ayah_keys": [
+        "19:66",
+        "19:67",
+        "19:68",
+        "19:69",
+        "19:70"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/019_066_Maryam.mp4",
+      "created_at": 1787473782
     }
   ]
 }
