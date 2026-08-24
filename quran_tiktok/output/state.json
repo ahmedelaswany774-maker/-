@@ -108,7 +108,12 @@
     "47:31",
     "47:32",
     "47:33",
-    "47:34"
+    "47:34",
+    "26:26",
+    "26:27",
+    "26:35",
+    "26:36",
+    "26:37"
   ],
   "generated": [
     {
@@ -390,6 +395,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/047_031_Muhammad.mp4",
       "created_at": 1787534165
+    },
+    {
+      "ayah_key": "26:26",
+      "ayah_keys": [
+        "26:26",
+        "26:27",
+        "26:35",
+        "26:36",
+        "26:37"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/026_026_Ash-Shu_araa.mp4",
+      "created_at": 1787546636
     }
   ]
 }
