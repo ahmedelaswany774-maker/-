@@ -146,7 +146,16 @@
     "79:15",
     "79:16",
     "79:17",
-    "79:18"
+    "79:18",
+    "77:42",
+    "77:43",
+    "77:44",
+    "77:45",
+    "77:46",
+    "77:47",
+    "77:48",
+    "77:49",
+    "77:50"
   ],
   "generated": [
     {
@@ -522,6 +531,22 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/079_007_An-Naazi_aat.mp4",
       "created_at": 1787647378
+    },
+    {
+      "ayah_key": "77:42",
+      "ayah_keys": [
+        "77:42",
+        "77:43",
+        "77:44",
+        "77:45",
+        "77:46",
+        "77:47",
+        "77:48",
+        "77:49",
+        "77:50"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/077_042_Al-Mursalaat.mp4",
+      "created_at": 1787661989
     }
   ]
 }
