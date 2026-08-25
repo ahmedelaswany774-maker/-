@@ -155,7 +155,9 @@
     "77:47",
     "77:48",
     "77:49",
-    "77:50"
+    "77:50",
+    "6:34",
+    "6:35"
   ],
   "generated": [
     {
@@ -547,6 +549,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/077_042_Al-Mursalaat.mp4",
       "created_at": 1787661989
+    },
+    {
+      "ayah_key": "6:34",
+      "ayah_keys": [
+        "6:34",
+        "6:35"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/006_034_Al-An_aam.mp4",
+      "created_at": 1787675857
     }
   ]
 }
