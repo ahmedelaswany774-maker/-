@@ -238,7 +238,11 @@
     "23:13",
     "22:60",
     "22:61",
-    "22:62"
+    "22:62",
+    "40:10",
+    "40:11",
+    "40:12",
+    "40:13"
   ],
   "generated": [
     {
@@ -832,6 +836,17 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/022_060_Al-Hajj.mp4",
       "created_at": 1788062128
+    },
+    {
+      "ayah_key": "40:10",
+      "ayah_keys": [
+        "40:10",
+        "40:11",
+        "40:12",
+        "40:13"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/040_010_Ghafir.mp4",
+      "created_at": 1788083247
     }
   ]
 }
