@@ -247,7 +247,11 @@
     "13:14",
     "59:22",
     "59:23",
-    "59:24"
+    "59:24",
+    "34:39",
+    "34:40",
+    "34:41",
+    "34:42"
   ],
   "generated": [
     {
@@ -871,6 +875,17 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/059_022_Al-Hashr.mp4",
       "created_at": 1788128794
+    },
+    {
+      "ayah_key": "34:39",
+      "ayah_keys": [
+        "34:39",
+        "34:40",
+        "34:41",
+        "34:42"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/034_039_Saba.mp4",
+      "created_at": 1788148731
     }
   ]
 }
