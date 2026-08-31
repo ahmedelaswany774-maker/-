@@ -251,7 +251,14 @@
     "34:39",
     "34:40",
     "34:41",
-    "34:42"
+    "34:42",
+    "76:24",
+    "76:25",
+    "76:26",
+    "76:27",
+    "76:28",
+    "76:29",
+    "76:30"
   ],
   "generated": [
     {
@@ -886,6 +893,20 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/034_039_Saba.mp4",
       "created_at": 1788148731
+    },
+    {
+      "ayah_key": "76:24",
+      "ayah_keys": [
+        "76:24",
+        "76:25",
+        "76:26",
+        "76:27",
+        "76:28",
+        "76:29",
+        "76:30"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/076_024_Al-Insaan.mp4",
+      "created_at": 1788173124
     }
   ]
 }
