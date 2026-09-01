@@ -271,7 +271,9 @@
     "27:57",
     "27:58",
     "27:59",
-    "27:60"
+    "27:60",
+    "31:33",
+    "31:34"
   ],
   "generated": [
     {
@@ -954,6 +956,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/027_057_An-Naml.mp4",
       "created_at": 1788234563
+    },
+    {
+      "ayah_key": "31:33",
+      "ayah_keys": [
+        "31:33",
+        "31:34"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/031_033_Luqman.mp4",
+      "created_at": 1788254046
     }
   ]
 }
