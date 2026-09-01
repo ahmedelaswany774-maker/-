@@ -273,7 +273,11 @@
     "27:59",
     "27:60",
     "31:33",
-    "31:34"
+    "31:34",
+    "2:44",
+    "2:45",
+    "2:46",
+    "2:47"
   ],
   "generated": [
     {
@@ -965,6 +969,17 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/031_033_Luqman.mp4",
       "created_at": 1788254046
+    },
+    {
+      "ayah_key": "2:44",
+      "ayah_keys": [
+        "2:44",
+        "2:45",
+        "2:46",
+        "2:47"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/002_044_Al-Baqara.mp4",
+      "created_at": 1788278967
     }
   ]
 }
