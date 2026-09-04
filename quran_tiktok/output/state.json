@@ -328,7 +328,12 @@
     "37:157",
     "14:16",
     "14:17",
-    "14:18"
+    "14:18",
+    "40:84",
+    "40:85",
+    "41:1",
+    "41:2",
+    "41:3"
   ],
   "generated": [
     {
@@ -1152,6 +1157,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/014_016_Ibrahim.mp4",
       "created_at": 1788474016
+    },
+    {
+      "ayah_key": "40:84",
+      "ayah_keys": [
+        "40:84",
+        "40:85",
+        "41:1",
+        "41:2",
+        "41:3"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/040_084_Ghafir.mp4",
+      "created_at": 1788491386
     }
   ]
 }
