@@ -357,7 +357,15 @@
     "30:51",
     "30:52",
     "30:53",
-    "30:54"
+    "30:54",
+    "26:54",
+    "26:55",
+    "26:56",
+    "26:57",
+    "26:58",
+    "26:59",
+    "26:60",
+    "26:61"
   ],
   "generated": [
     {
@@ -1252,6 +1260,21 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/030_051_Ar-Room.mp4",
       "created_at": 1788577922
+    },
+    {
+      "ayah_key": "26:54",
+      "ayah_keys": [
+        "26:54",
+        "26:55",
+        "26:56",
+        "26:57",
+        "26:58",
+        "26:59",
+        "26:60",
+        "26:61"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/026_054_Ash-Shu_araa.mp4",
+      "created_at": 1788595583
     }
   ]
 }
