@@ -403,7 +403,13 @@
     "55:13",
     "55:14",
     "55:15",
-    "55:16"
+    "55:16",
+    "68:44",
+    "68:45",
+    "68:46",
+    "68:47",
+    "68:48",
+    "68:49"
   ],
   "generated": [
     {
@@ -1407,6 +1413,19 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/055_010_Ar-Rahmaan.mp4",
       "created_at": 1788731933
+    },
+    {
+      "ayah_key": "68:44",
+      "ayah_keys": [
+        "68:44",
+        "68:45",
+        "68:46",
+        "68:47",
+        "68:48",
+        "68:49"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/068_044_Al-Qalam.mp4",
+      "created_at": 1788750595
     }
   ]
 }
