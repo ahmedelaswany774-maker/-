@@ -411,7 +411,10 @@
     "68:48",
     "68:49",
     "39:8",
-    "39:9"
+    "39:9",
+    "47:20",
+    "47:21",
+    "47:22"
   ],
   "generated": [
     {
@@ -1437,6 +1440,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/039_008_Az-Zumar.mp4",
       "created_at": 1788771568
+    },
+    {
+      "ayah_key": "47:20",
+      "ayah_keys": [
+        "47:20",
+        "47:21",
+        "47:22"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/047_020_Muhammad.mp4",
+      "created_at": 1788801656
     }
   ]
 }
