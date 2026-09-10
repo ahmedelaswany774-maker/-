@@ -485,7 +485,10 @@
     "26:169",
     "26:170",
     "26:171",
-    "26:172"
+    "26:172",
+    "7:176",
+    "7:177",
+    "7:178"
   ],
   "generated": [
     {
@@ -1676,6 +1679,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/026_166_Ash-Shu_araa.mp4",
       "created_at": 1789029705
+    },
+    {
+      "ayah_key": "7:176",
+      "ayah_keys": [
+        "7:176",
+        "7:177",
+        "7:178"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/007_176_Al-A_raaf.mp4",
+      "created_at": 1789055692
     }
   ]
 }
