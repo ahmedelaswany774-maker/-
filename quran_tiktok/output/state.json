@@ -475,7 +475,10 @@
     "26:149",
     "26:150",
     "26:151",
-    "26:152"
+    "26:152",
+    "41:24",
+    "41:25",
+    "41:26"
   ],
   "generated": [
     {
@@ -1642,6 +1645,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/026_145_Ash-Shu_araa.mp4",
       "created_at": 1788992282
+    },
+    {
+      "ayah_key": "41:24",
+      "ayah_keys": [
+        "41:24",
+        "41:25",
+        "41:26"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/041_024_Fussilat.mp4",
+      "created_at": 1789010428
     }
   ]
 }
