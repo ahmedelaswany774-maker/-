@@ -502,7 +502,12 @@
     "50:36",
     "50:37",
     "50:38",
-    "50:39"
+    "50:39",
+    "25:73",
+    "25:74",
+    "25:75",
+    "25:76",
+    "25:77"
   ],
   "generated": [
     {
@@ -1738,6 +1743,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/050_036_Qaaf.mp4",
       "created_at": 1789096599
+    },
+    {
+      "ayah_key": "25:73",
+      "ayah_keys": [
+        "25:73",
+        "25:74",
+        "25:75",
+        "25:76",
+        "25:77"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/025_073_Al-Furqaan.mp4",
+      "created_at": 1789115898
     }
   ]
 }
