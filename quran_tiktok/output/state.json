@@ -513,7 +513,11 @@
     "40:38",
     "40:39",
     "40:40",
-    "40:41"
+    "40:41",
+    "41:31",
+    "41:32",
+    "41:33",
+    "41:34"
   ],
   "generated": [
     {
@@ -1781,6 +1785,17 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/040_038_Ghafir.mp4",
       "created_at": 1789153433
+    },
+    {
+      "ayah_key": "41:31",
+      "ayah_keys": [
+        "41:31",
+        "41:32",
+        "41:33",
+        "41:34"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/041_031_Fussilat.mp4",
+      "created_at": 1789165068
     }
   ]
 }
