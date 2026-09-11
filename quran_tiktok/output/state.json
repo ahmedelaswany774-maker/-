@@ -507,7 +507,9 @@
     "25:74",
     "25:75",
     "25:76",
-    "25:77"
+    "25:77",
+    "39:22",
+    "39:23"
   ],
   "generated": [
     {
@@ -1755,6 +1757,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/025_073_Al-Furqaan.mp4",
       "created_at": 1789115898
+    },
+    {
+      "ayah_key": "39:22",
+      "ayah_keys": [
+        "39:22",
+        "39:23"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/039_022_Az-Zumar.mp4",
+      "created_at": 1789142253
     }
   ]
 }
