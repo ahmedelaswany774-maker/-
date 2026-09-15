@@ -595,7 +595,14 @@
     "56:55",
     "56:56",
     "56:57",
-    "56:58"
+    "56:58",
+    "26:189",
+    "26:190",
+    "26:191",
+    "26:192",
+    "26:193",
+    "26:194",
+    "26:195"
   ],
   "generated": [
     {
@@ -2050,6 +2057,20 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/056_051_Al-Waaqia.mp4",
       "created_at": 1789426727
+    },
+    {
+      "ayah_key": "26:189",
+      "ayah_keys": [
+        "26:189",
+        "26:190",
+        "26:191",
+        "26:192",
+        "26:193",
+        "26:194",
+        "26:195"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/026_189_Ash-Shu_araa.mp4",
+      "created_at": 1789443550
     }
   ]
 }
