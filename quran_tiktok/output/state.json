@@ -618,7 +618,12 @@
     "47:4",
     "8:38",
     "8:39",
-    "8:40"
+    "8:40",
+    "17:106",
+    "17:107",
+    "17:108",
+    "17:109",
+    "17:110"
   ],
   "generated": [
     {
@@ -2131,6 +2136,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/008_038_Al-Anfaal.mp4",
       "created_at": 1789529747
+    },
+    {
+      "ayah_key": "17:106",
+      "ayah_keys": [
+        "17:106",
+        "17:107",
+        "17:108",
+        "17:109",
+        "17:110"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/017_106_Al-Israa.mp4",
+      "created_at": 1789549657
     }
   ]
 }
