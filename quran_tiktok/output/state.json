@@ -615,7 +615,10 @@
     "2:210",
     "2:211",
     "47:3",
-    "47:4"
+    "47:4",
+    "8:38",
+    "8:39",
+    "8:40"
   ],
   "generated": [
     {
@@ -2118,6 +2121,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/047_003_Muhammad.mp4",
       "created_at": 1789512265
+    },
+    {
+      "ayah_key": "8:38",
+      "ayah_keys": [
+        "8:38",
+        "8:39",
+        "8:40"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/008_038_Al-Anfaal.mp4",
+      "created_at": 1789529747
     }
   ]
 }
