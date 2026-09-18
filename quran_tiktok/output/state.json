@@ -661,7 +661,10 @@
     "15:79",
     "15:80",
     "15:81",
-    "15:82"
+    "15:82",
+    "20:85",
+    "20:86",
+    "20:87"
   ],
   "generated": [
     {
@@ -2273,6 +2276,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/015_075_Al-Hijr.mp4",
       "created_at": 1789702027
+    },
+    {
+      "ayah_key": "20:85",
+      "ayah_keys": [
+        "20:85",
+        "20:86",
+        "20:87"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/020_085_Taa-Haa.mp4",
+      "created_at": 1789721326
     }
   ]
 }
