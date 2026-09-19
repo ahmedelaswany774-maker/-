@@ -686,7 +686,10 @@
     "35:33",
     "35:34",
     "35:35",
-    "35:36"
+    "35:36",
+    "47:10",
+    "47:11",
+    "47:12"
   ],
   "generated": [
     {
@@ -2358,6 +2361,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/035_033_Faatir.mp4",
       "created_at": 1789788207
+    },
+    {
+      "ayah_key": "47:10",
+      "ayah_keys": [
+        "47:10",
+        "47:11",
+        "47:12"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/047_010_Muhammad.mp4",
+      "created_at": 1789806931
     }
   ]
 }
