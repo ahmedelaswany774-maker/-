@@ -692,7 +692,10 @@
     "47:12",
     "9:58",
     "9:59",
-    "9:60"
+    "9:60",
+    "2:178",
+    "2:179",
+    "2:180"
   ],
   "generated": [
     {
@@ -2384,6 +2387,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/009_058_At-Tawba.mp4",
       "created_at": 1789831688
+    },
+    {
+      "ayah_key": "2:178",
+      "ayah_keys": [
+        "2:178",
+        "2:179",
+        "2:180"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/002_178_Al-Baqara.mp4",
+      "created_at": 1789842415
     }
   ]
 }
