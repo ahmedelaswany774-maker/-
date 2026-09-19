@@ -695,7 +695,15 @@
     "9:60",
     "2:178",
     "2:179",
-    "2:180"
+    "2:180",
+    "44:40",
+    "44:41",
+    "44:42",
+    "44:43",
+    "44:44",
+    "44:45",
+    "44:46",
+    "44:47"
   ],
   "generated": [
     {
@@ -2397,6 +2405,21 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/002_178_Al-Baqara.mp4",
       "created_at": 1789842415
+    },
+    {
+      "ayah_key": "44:40",
+      "ayah_keys": [
+        "44:40",
+        "44:41",
+        "44:42",
+        "44:43",
+        "44:44",
+        "44:45",
+        "44:46",
+        "44:47"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/044_040_Ad-Dukhaan.mp4",
+      "created_at": 1789855756
     }
   ]
 }
