@@ -722,7 +722,12 @@
     "2:115",
     "2:116",
     "2:117",
-    "2:118"
+    "2:118",
+    "26:47",
+    "26:48",
+    "26:49",
+    "26:50",
+    "26:51"
   ],
   "generated": [
     {
@@ -2486,6 +2491,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/002_115_Al-Baqara.mp4",
       "created_at": 1789929063
+    },
+    {
+      "ayah_key": "26:47",
+      "ayah_keys": [
+        "26:47",
+        "26:48",
+        "26:49",
+        "26:50",
+        "26:51"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/026_047_Ash-Shu_araa.mp4",
+      "created_at": 1789942449
     }
   ]
 }
