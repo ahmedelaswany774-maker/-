@@ -703,7 +703,10 @@
     "44:44",
     "44:45",
     "44:46",
-    "44:47"
+    "44:47",
+    "29:32",
+    "29:33",
+    "29:34"
   ],
   "generated": [
     {
@@ -2420,6 +2423,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/044_040_Ad-Dukhaan.mp4",
       "created_at": 1789855756
+    },
+    {
+      "ayah_key": "29:32",
+      "ayah_keys": [
+        "29:32",
+        "29:33",
+        "29:34"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/029_032_Al-Ankaboot.mp4",
+      "created_at": 1789875633
     }
   ]
 }
