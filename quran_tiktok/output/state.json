@@ -805,7 +805,9 @@
     "59:17",
     "59:18",
     "59:19",
-    "59:20"
+    "59:20",
+    "7:189",
+    "7:190"
   ],
   "generated": [
     {
@@ -2764,6 +2766,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/059_017_Al-Hashr.mp4",
       "created_at": 1790267787
+    },
+    {
+      "ayah_key": "7:189",
+      "ayah_keys": [
+        "7:189",
+        "7:190"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/007_189_Al-A_raaf.mp4",
+      "created_at": 1790290948
     }
   ]
 }
