@@ -787,7 +787,10 @@
     "77:41",
     "6:155",
     "6:156",
-    "6:157"
+    "6:157",
+    "28:22",
+    "28:24",
+    "28:25"
   ],
   "generated": [
     {
@@ -2707,6 +2710,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/006_155_Al-An_aam.mp4",
       "created_at": 1790203421
+    },
+    {
+      "ayah_key": "28:22",
+      "ayah_keys": [
+        "28:22",
+        "28:24",
+        "28:25"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/028_022_Al-Qasas.mp4",
+      "created_at": 1790220277
     }
   ]
 }
