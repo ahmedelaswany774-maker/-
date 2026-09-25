@@ -812,7 +812,13 @@
     "21:106",
     "21:107",
     "21:108",
-    "21:109"
+    "21:109",
+    "43:74",
+    "43:75",
+    "43:76",
+    "43:77",
+    "43:78",
+    "43:79"
   ],
   "generated": [
     {
@@ -2792,6 +2798,19 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/021_105_Al-Anbiyaa.mp4",
       "created_at": 1790307704
+    },
+    {
+      "ayah_key": "43:74",
+      "ayah_keys": [
+        "43:74",
+        "43:75",
+        "43:76",
+        "43:77",
+        "43:78",
+        "43:79"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/043_074_Az-Zukhruf.mp4",
+      "created_at": 1790328340
     }
   ]
 }
