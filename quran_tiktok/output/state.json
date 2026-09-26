@@ -840,7 +840,14 @@
     "95:3",
     "95:4",
     "95:5",
-    "95:6"
+    "95:6",
+    "20:6",
+    "20:7",
+    "20:8",
+    "20:9",
+    "20:15",
+    "20:16",
+    "20:17"
   ],
   "generated": [
     {
@@ -2883,6 +2890,20 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/094_004_Ash-Sharh.mp4",
       "created_at": 1790413854
+    },
+    {
+      "ayah_key": "20:6",
+      "ayah_keys": [
+        "20:6",
+        "20:7",
+        "20:8",
+        "20:9",
+        "20:15",
+        "20:16",
+        "20:17"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/020_006_Taa-Haa.mp4",
+      "created_at": 1790438047
     }
   ]
 }
