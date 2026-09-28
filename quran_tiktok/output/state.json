@@ -874,7 +874,9 @@
     "37:117",
     "37:118",
     "37:119",
-    "37:120"
+    "37:120",
+    "88:23",
+    "88:24"
   ],
   "generated": [
     {
@@ -3000,6 +3002,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/037_116_As-Saaffaat.mp4",
       "created_at": 1790549466
+    },
+    {
+      "ayah_key": "88:23",
+      "ayah_keys": [
+        "88:23",
+        "88:24"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/088_023_Al-Ghaashiya.mp4",
+      "created_at": 1790567814
     }
   ]
 }
