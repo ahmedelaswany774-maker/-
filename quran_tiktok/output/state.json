@@ -904,7 +904,14 @@
     "35:18",
     "35:19",
     "35:20",
-    "35:21"
+    "35:21",
+    "26:80",
+    "26:81",
+    "26:82",
+    "26:83",
+    "26:84",
+    "26:85",
+    "26:86"
   ],
   "generated": [
     {
@@ -3102,6 +3109,20 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/035_017_Faatir.mp4",
       "created_at": 1790703880
+    },
+    {
+      "ayah_key": "26:80",
+      "ayah_keys": [
+        "26:80",
+        "26:81",
+        "26:82",
+        "26:83",
+        "26:84",
+        "26:85",
+        "26:86"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/026_080_Ash-Shu_araa.mp4",
+      "created_at": 1790724491
     }
   ]
 }
