@@ -899,7 +899,12 @@
     "39:31",
     "39:32",
     "39:33",
-    "39:34"
+    "39:34",
+    "35:17",
+    "35:18",
+    "35:19",
+    "35:20",
+    "35:21"
   ],
   "generated": [
     {
@@ -3085,6 +3090,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/039_031_Az-Zumar.mp4",
       "created_at": 1790677596
+    },
+    {
+      "ayah_key": "35:17",
+      "ayah_keys": [
+        "35:17",
+        "35:18",
+        "35:19",
+        "35:20",
+        "35:21"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/035_017_Faatir.mp4",
+      "created_at": 1790703880
     }
   ]
 }
