@@ -935,7 +935,10 @@
     "79:45",
     "79:46",
     "80:1",
-    "80:2"
+    "80:2",
+    "17:58",
+    "17:59",
+    "17:60"
   ],
   "generated": [
     {
@@ -3199,6 +3202,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/079_040_An-Naazi_aat.mp4",
       "created_at": 1790828818
+    },
+    {
+      "ayah_key": "17:58",
+      "ayah_keys": [
+        "17:58",
+        "17:59",
+        "17:60"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/017_058_Al-Israa.mp4",
+      "created_at": 1790867664
     }
   ]
 }
