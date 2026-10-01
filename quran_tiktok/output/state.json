@@ -938,7 +938,10 @@
     "80:2",
     "17:58",
     "17:59",
-    "17:60"
+    "17:60",
+    "7:9",
+    "7:10",
+    "7:11"
   ],
   "generated": [
     {
@@ -3212,6 +3215,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/017_058_Al-Israa.mp4",
       "created_at": 1790867664
+    },
+    {
+      "ayah_key": "7:9",
+      "ayah_keys": [
+        "7:9",
+        "7:10",
+        "7:11"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/007_009_Al-A_raaf.mp4",
+      "created_at": 1790887801
     }
   ]
 }
