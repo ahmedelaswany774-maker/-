@@ -945,7 +945,9 @@
     "41:18",
     "41:19",
     "41:20",
-    "41:21"
+    "41:21",
+    "6:79",
+    "6:80"
   ],
   "generated": [
     {
@@ -3240,6 +3242,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/041_018_Fussilat.mp4",
       "created_at": 1790914770
+    },
+    {
+      "ayah_key": "6:79",
+      "ayah_keys": [
+        "6:79",
+        "6:80"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/006_079_Al-An_aam.mp4",
+      "created_at": 1790951393
     }
   ]
 }
