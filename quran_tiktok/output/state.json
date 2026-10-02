@@ -947,7 +947,14 @@
     "41:20",
     "41:21",
     "6:79",
-    "6:80"
+    "6:80",
+    "76:11",
+    "76:12",
+    "76:13",
+    "76:14",
+    "76:15",
+    "76:16",
+    "76:17"
   ],
   "generated": [
     {
@@ -3251,6 +3258,20 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/006_079_Al-An_aam.mp4",
       "created_at": 1790951393
+    },
+    {
+      "ayah_key": "76:11",
+      "ayah_keys": [
+        "76:11",
+        "76:12",
+        "76:13",
+        "76:14",
+        "76:15",
+        "76:16",
+        "76:17"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/076_011_Al-Insaan.mp4",
+      "created_at": 1790972601
     }
   ]
 }
