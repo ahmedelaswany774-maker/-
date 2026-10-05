@@ -990,7 +990,10 @@
     "55:9",
     "55:17",
     "55:18",
-    "2:282"
+    "2:282",
+    "22:26",
+    "22:27",
+    "22:28"
   ],
   "generated": [
     {
@@ -3407,6 +3410,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/002_282_Al-Baqara.mp4",
       "created_at": 1791174092
+    },
+    {
+      "ayah_key": "22:26",
+      "ayah_keys": [
+        "22:26",
+        "22:27",
+        "22:28"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/022_026_Al-Hajj.mp4",
+      "created_at": 1791219065
     }
   ]
 }
