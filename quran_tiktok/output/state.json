@@ -989,7 +989,8 @@
     "55:8",
     "55:9",
     "55:17",
-    "55:18"
+    "55:18",
+    "2:282"
   ],
   "generated": [
     {
@@ -3398,6 +3399,14 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/055_007_Ar-Rahmaan.mp4",
       "created_at": 1791154065
+    },
+    {
+      "ayah_key": "2:282",
+      "ayah_keys": [
+        "2:282"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/002_282_Al-Baqara.mp4",
+      "created_at": 1791174092
     }
   ]
 }
