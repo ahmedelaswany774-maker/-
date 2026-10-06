@@ -1006,7 +1006,11 @@
     "82:19",
     "83:1",
     "83:2",
-    "83:3"
+    "83:3",
+    "36:79",
+    "36:80",
+    "36:81",
+    "36:82"
   ],
   "generated": [
     {
@@ -3460,6 +3464,17 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/082_014_Al-Infitaar.mp4",
       "created_at": 1791284587
+    },
+    {
+      "ayah_key": "36:79",
+      "ayah_keys": [
+        "36:79",
+        "36:80",
+        "36:81",
+        "36:82"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/036_079_Yaseen.mp4",
+      "created_at": 1791309606
     }
   ]
 }
