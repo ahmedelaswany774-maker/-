@@ -1018,7 +1018,12 @@
     "54:2",
     "54:3",
     "54:4",
-    "54:5"
+    "54:5",
+    "72:21",
+    "72:22",
+    "72:23",
+    "72:24",
+    "72:25"
   ],
   "generated": [
     {
@@ -3498,6 +3503,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/053_060_An-Najm.mp4",
       "created_at": 1791329772
+    },
+    {
+      "ayah_key": "72:21",
+      "ayah_keys": [
+        "72:21",
+        "72:22",
+        "72:23",
+        "72:24",
+        "72:25"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/072_021_Al-Jinn.mp4",
+      "created_at": 1791347728
     }
   ]
 }
