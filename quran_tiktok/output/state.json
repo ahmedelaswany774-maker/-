@@ -1032,7 +1032,11 @@
     "25:11",
     "25:12",
     "25:13",
-    "25:14"
+    "25:14",
+    "20:75",
+    "20:76",
+    "20:77",
+    "20:78"
   ],
   "generated": [
     {
@@ -3547,6 +3551,17 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/025_009_Al-Furqaan.mp4",
       "created_at": 1791472529
+    },
+    {
+      "ayah_key": "20:75",
+      "ayah_keys": [
+        "20:75",
+        "20:76",
+        "20:77",
+        "20:78"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/020_075_Taa-Haa.mp4",
+      "created_at": 1791521346
     }
   ]
 }
