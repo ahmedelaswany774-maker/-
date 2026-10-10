@@ -1041,7 +1041,9 @@
     "17:5",
     "4:138",
     "4:139",
-    "4:140"
+    "4:140",
+    "12:65",
+    "12:66"
   ],
   "generated": [
     {
@@ -3586,6 +3588,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/004_138_An-Nisaa.mp4",
       "created_at": 1791578114
+    },
+    {
+      "ayah_key": "12:65",
+      "ayah_keys": [
+        "12:65",
+        "12:66"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/012_065_Yusuf.mp4",
+      "created_at": 1791606874
     }
   ]
 }
