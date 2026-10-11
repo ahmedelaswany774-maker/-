@@ -1070,7 +1070,11 @@
     "42:1",
     "42:2",
     "42:3",
-    "42:4"
+    "42:4",
+    "12:93",
+    "12:94",
+    "12:95",
+    "12:96"
   ],
   "generated": [
     {
@@ -3693,6 +3697,17 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/041_054_Fussilat.mp4",
       "created_at": 1791748660
+    },
+    {
+      "ayah_key": "12:93",
+      "ayah_keys": [
+        "12:93",
+        "12:94",
+        "12:95",
+        "12:96"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/012_093_Yusuf.mp4",
+      "created_at": 1791761395
     }
   ]
 }
