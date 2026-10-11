@@ -1058,7 +1058,10 @@
     "56:82",
     "56:83",
     "56:84",
-    "56:85"
+    "56:85",
+    "7:45",
+    "7:46",
+    "7:47"
   ],
   "generated": [
     {
@@ -3648,6 +3651,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/056_078_Al-Waaqia.mp4",
       "created_at": 1791674254
+    },
+    {
+      "ayah_key": "7:45",
+      "ayah_keys": [
+        "7:45",
+        "7:46",
+        "7:47"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/007_045_Al-A_raaf.mp4",
+      "created_at": 1791692332
     }
   ]
 }
