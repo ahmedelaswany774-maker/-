@@ -1065,7 +1065,12 @@
     "57:5",
     "57:6",
     "57:7",
-    "57:8"
+    "57:8",
+    "41:54",
+    "42:1",
+    "42:2",
+    "42:3",
+    "42:4"
   ],
   "generated": [
     {
@@ -3676,6 +3681,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/057_005_Al-Hadid.mp4",
       "created_at": 1791729737
+    },
+    {
+      "ayah_key": "41:54",
+      "ayah_keys": [
+        "41:54",
+        "42:1",
+        "42:2",
+        "42:3",
+        "42:4"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/041_054_Fussilat.mp4",
+      "created_at": 1791748660
     }
   ]
 }
