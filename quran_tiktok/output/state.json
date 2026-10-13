@@ -1098,7 +1098,10 @@
     "111:2",
     "111:3",
     "111:4",
-    "111:5"
+    "111:5",
+    "7:58",
+    "7:59",
+    "7:60"
   ],
   "generated": [
     {
@@ -3784,6 +3787,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/109_006_Al-Kaafiroon.mp4",
       "created_at": 1791890857
+    },
+    {
+      "ayah_key": "7:58",
+      "ayah_keys": [
+        "7:58",
+        "7:59",
+        "7:60"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/007_058_Al-A_raaf.mp4",
+      "created_at": 1791917818
     }
   ]
 }
