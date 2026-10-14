@@ -1107,7 +1107,15 @@
     "4:15",
     "59:1",
     "59:2",
-    "59:3"
+    "59:3",
+    "26:71",
+    "26:72",
+    "26:73",
+    "26:74",
+    "26:75",
+    "26:76",
+    "26:77",
+    "26:78"
   ],
   "generated": [
     {
@@ -3823,6 +3831,21 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/059_001_Al-Hashr.mp4",
       "created_at": 1791949521
+    },
+    {
+      "ayah_key": "26:71",
+      "ayah_keys": [
+        "26:71",
+        "26:72",
+        "26:73",
+        "26:74",
+        "26:75",
+        "26:76",
+        "26:77",
+        "26:78"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/026_071_Ash-Shu_araa.mp4",
+      "created_at": 1791969594
     }
   ]
 }
