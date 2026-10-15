@@ -1143,7 +1143,15 @@
     "80:31",
     "80:32",
     "80:33",
-    "80:34"
+    "80:34",
+    "36:78",
+    "36:83",
+    "37:1",
+    "37:2",
+    "37:3",
+    "37:4",
+    "37:5",
+    "37:6"
   ],
   "generated": [
     {
@@ -3930,6 +3938,21 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/080_023_Abasa.mp4",
       "created_at": 1792054510
+    },
+    {
+      "ayah_key": "36:78",
+      "ayah_keys": [
+        "36:78",
+        "36:83",
+        "37:1",
+        "37:2",
+        "37:3",
+        "37:4",
+        "37:5",
+        "37:6"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/036_078_Yaseen.mp4",
+      "created_at": 1792081508
     }
   ]
 }
