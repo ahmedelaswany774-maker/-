@@ -1194,7 +1194,9 @@
     "75:37",
     "75:38",
     "75:39",
-    "75:40"
+    "75:40",
+    "3:48",
+    "3:49"
   ],
   "generated": [
     {
@@ -4081,6 +4083,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/075_029_Al-Qiyaama.mp4",
       "created_at": 1792206797
+    },
+    {
+      "ayah_key": "3:48",
+      "ayah_keys": [
+        "3:48",
+        "3:49"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/003_048_Aal-i-Imraan.mp4",
+      "created_at": 1792225068
     }
   ]
 }
