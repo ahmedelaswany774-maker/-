@@ -1199,7 +1199,13 @@
     "3:49",
     "76:21",
     "76:22",
-    "76:23"
+    "76:23",
+    "56:67",
+    "56:68",
+    "56:69",
+    "56:70",
+    "56:71",
+    "56:72"
   ],
   "generated": [
     {
@@ -4105,6 +4111,19 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/076_021_Al-Insaan.mp4",
       "created_at": 1792249394
+    },
+    {
+      "ayah_key": "56:67",
+      "ayah_keys": [
+        "56:67",
+        "56:68",
+        "56:69",
+        "56:70",
+        "56:71",
+        "56:72"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/056_067_Al-Waaqia.mp4",
+      "created_at": 1792260711
     }
   ]
 }
