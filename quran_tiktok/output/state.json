@@ -1214,7 +1214,10 @@
     "3:58",
     "3:59",
     "3:63",
-    "3:64"
+    "3:64",
+    "10:28",
+    "10:29",
+    "10:30"
   ],
   "generated": [
     {
@@ -4156,6 +4159,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/003_058_Aal-i-Imraan.mp4",
       "created_at": 1792293377
+    },
+    {
+      "ayah_key": "10:28",
+      "ayah_keys": [
+        "10:28",
+        "10:29",
+        "10:30"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/010_028_Yunus.mp4",
+      "created_at": 1792312546
     }
   ]
 }
