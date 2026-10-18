@@ -1220,7 +1220,10 @@
     "10:30",
     "17:99",
     "17:100",
-    "17:101"
+    "17:101",
+    "39:69",
+    "39:70",
+    "39:71"
   ],
   "generated": [
     {
@@ -4182,6 +4185,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/017_099_Al-Israa.mp4",
       "created_at": 1792337265
+    },
+    {
+      "ayah_key": "39:69",
+      "ayah_keys": [
+        "39:69",
+        "39:70",
+        "39:71"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/039_069_Az-Zumar.mp4",
+      "created_at": 1792348145
     }
   ]
 }
