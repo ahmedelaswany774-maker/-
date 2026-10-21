@@ -1265,7 +1265,9 @@
     "78:35",
     "78:36",
     "78:37",
-    "78:38"
+    "78:38",
+    "2:248",
+    "2:249"
   ],
   "generated": [
     {
@@ -4349,6 +4351,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/078_031_An-Naba.mp4",
       "created_at": 1792553494
+    },
+    {
+      "ayah_key": "2:248",
+      "ayah_keys": [
+        "2:248",
+        "2:249"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/002_248_Al-Baqara.mp4",
+      "created_at": 1792573783
     }
   ]
 }
