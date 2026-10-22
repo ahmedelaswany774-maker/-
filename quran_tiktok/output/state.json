@@ -1287,7 +1287,9 @@
     "16:17",
     "16:18",
     "16:19",
-    "16:20"
+    "16:20",
+    "6:139",
+    "6:140"
   ],
   "generated": [
     {
@@ -4428,6 +4430,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/016_015_An-Nahl.mp4",
       "created_at": 1792660313
+    },
+    {
+      "ayah_key": "6:139",
+      "ayah_keys": [
+        "6:139",
+        "6:140"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/006_139_Al-An_aam.mp4",
+      "created_at": 1792687390
     }
   ]
 }
