@@ -1309,7 +1309,15 @@
     "52:21",
     "17:67",
     "17:68",
-    "17:69"
+    "17:69",
+    "106:3",
+    "106:4",
+    "107:1",
+    "107:2",
+    "107:3",
+    "107:4",
+    "107:5",
+    "107:6"
   ],
   "generated": [
     {
@@ -4521,6 +4529,21 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/017_067_Al-Israa.mp4",
       "created_at": 1792831287
+    },
+    {
+      "ayah_key": "106:3",
+      "ayah_keys": [
+        "106:3",
+        "106:4",
+        "107:1",
+        "107:2",
+        "107:3",
+        "107:4",
+        "107:5",
+        "107:6"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/106_003_Quraish.mp4",
+      "created_at": 1792855699
     }
   ]
 }
