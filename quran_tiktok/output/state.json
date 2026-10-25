@@ -1339,7 +1339,9 @@
     "28:53",
     "49:1",
     "49:2",
-    "49:3"
+    "49:3",
+    "41:50",
+    "41:51"
   ],
   "generated": [
     {
@@ -4616,6 +4618,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/049_001_Al-Hujuraat.mp4",
       "created_at": 1792918744
+    },
+    {
+      "ayah_key": "41:50",
+      "ayah_keys": [
+        "41:50",
+        "41:51"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/041_050_Fussilat.mp4",
+      "created_at": 1792942716
     }
   ]
 }
