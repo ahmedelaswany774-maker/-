@@ -1341,7 +1341,14 @@
     "49:2",
     "49:3",
     "41:50",
-    "41:51"
+    "41:51",
+    "44:48",
+    "44:49",
+    "44:50",
+    "44:51",
+    "44:52",
+    "44:53",
+    "44:54"
   ],
   "generated": [
     {
@@ -4627,6 +4634,20 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/041_050_Fussilat.mp4",
       "created_at": 1792942716
+    },
+    {
+      "ayah_key": "44:48",
+      "ayah_keys": [
+        "44:48",
+        "44:49",
+        "44:50",
+        "44:51",
+        "44:52",
+        "44:53",
+        "44:54"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/044_048_Ad-Dukhaan.mp4",
+      "created_at": 1792953906
     }
   ]
 }
