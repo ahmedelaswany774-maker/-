@@ -1332,7 +1332,11 @@
     "20:29",
     "20:30",
     "20:31",
-    "20:32"
+    "20:32",
+    "28:50",
+    "28:51",
+    "28:52",
+    "28:53"
   ],
   "generated": [
     {
@@ -4588,6 +4592,17 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/020_021_Taa-Haa.mp4",
       "created_at": 1792880180
+    },
+    {
+      "ayah_key": "28:50",
+      "ayah_keys": [
+        "28:50",
+        "28:51",
+        "28:52",
+        "28:53"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/028_050_Al-Qasas.mp4",
+      "created_at": 1792898765
     }
   ]
 }
