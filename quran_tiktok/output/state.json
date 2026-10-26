@@ -1371,7 +1371,9 @@
     "75:25",
     "75:26",
     "75:27",
-    "75:28"
+    "75:28",
+    "7:86",
+    "7:87"
   ],
   "generated": [
     {
@@ -4715,6 +4717,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/075_022_Al-Qiyaama.mp4",
       "created_at": 1793007992
+    },
+    {
+      "ayah_key": "7:86",
+      "ayah_keys": [
+        "7:86",
+        "7:87"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/007_086_Al-A_raaf.mp4",
+      "created_at": 1793057789
     }
   ]
 }
