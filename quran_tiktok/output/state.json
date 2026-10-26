@@ -1364,7 +1364,14 @@
     "15:19",
     "15:20",
     "15:21",
-    "15:22"
+    "15:22",
+    "75:22",
+    "75:23",
+    "75:24",
+    "75:25",
+    "75:26",
+    "75:27",
+    "75:28"
   ],
   "generated": [
     {
@@ -4694,6 +4701,20 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/015_019_Al-Hijr.mp4",
       "created_at": 1792985301
+    },
+    {
+      "ayah_key": "75:22",
+      "ayah_keys": [
+        "75:22",
+        "75:23",
+        "75:24",
+        "75:25",
+        "75:26",
+        "75:27",
+        "75:28"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/075_022_Al-Qiyaama.mp4",
+      "created_at": 1793007992
     }
   ]
 }
