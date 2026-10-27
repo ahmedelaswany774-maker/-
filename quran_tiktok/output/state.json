@@ -1373,7 +1373,12 @@
     "75:27",
     "75:28",
     "7:86",
-    "7:87"
+    "7:87",
+    "43:28",
+    "43:29",
+    "43:30",
+    "43:31",
+    "43:32"
   ],
   "generated": [
     {
@@ -4726,6 +4731,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/007_086_Al-A_raaf.mp4",
       "created_at": 1793057789
+    },
+    {
+      "ayah_key": "43:28",
+      "ayah_keys": [
+        "43:28",
+        "43:29",
+        "43:30",
+        "43:31",
+        "43:32"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/043_028_Az-Zukhruf.mp4",
+      "created_at": 1793093948
     }
   ]
 }
