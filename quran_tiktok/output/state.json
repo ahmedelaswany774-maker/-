@@ -1378,7 +1378,13 @@
     "43:29",
     "43:30",
     "43:31",
-    "43:32"
+    "43:32",
+    "79:1",
+    "79:2",
+    "79:3",
+    "79:4",
+    "79:5",
+    "79:6"
   ],
   "generated": [
     {
@@ -4743,6 +4749,19 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/043_028_Az-Zukhruf.mp4",
       "created_at": 1793093948
+    },
+    {
+      "ayah_key": "79:1",
+      "ayah_keys": [
+        "79:1",
+        "79:2",
+        "79:3",
+        "79:4",
+        "79:5",
+        "79:6"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/079_001_An-Naazi_aat.mp4",
+      "created_at": 1793122364
     }
   ]
 }
