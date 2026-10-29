@@ -1415,7 +1415,11 @@
     "37:16",
     "37:17",
     "37:18",
-    "37:19"
+    "37:19",
+    "42:41",
+    "42:42",
+    "42:43",
+    "42:44"
   ],
   "generated": [
     {
@@ -4866,6 +4870,17 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/037_012_As-Saaffaat.mp4",
       "created_at": 1793285928
+    },
+    {
+      "ayah_key": "42:41",
+      "ayah_keys": [
+        "42:41",
+        "42:42",
+        "42:43",
+        "42:44"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/042_041_Ash-Shura.mp4",
+      "created_at": 1793307245
     }
   ]
 }
