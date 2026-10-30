@@ -1427,7 +1427,8 @@
     "70:44",
     "11:71",
     "11:72",
-    "11:73"
+    "11:73",
+    "69:21"
   ],
   "generated": [
     {
@@ -4911,6 +4912,14 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/011_071_Hud.mp4",
       "created_at": 1793372012
+    },
+    {
+      "ayah_key": "69:21",
+      "ayah_keys": [
+        "69:21"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/069_021_Al-Haaqqa.mp4",
+      "created_at": 1793392081
     }
   ]
 }
