@@ -1419,7 +1419,12 @@
     "42:41",
     "42:42",
     "42:43",
-    "42:44"
+    "42:44",
+    "70:40",
+    "70:41",
+    "70:42",
+    "70:43",
+    "70:44"
   ],
   "generated": [
     {
@@ -4881,6 +4886,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/042_041_Ash-Shura.mp4",
       "created_at": 1793307245
+    },
+    {
+      "ayah_key": "70:40",
+      "ayah_keys": [
+        "70:40",
+        "70:41",
+        "70:42",
+        "70:43",
+        "70:44"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/070_040_Al-Ma_aarij.mp4",
+      "created_at": 1793335066
     }
   ]
 }
