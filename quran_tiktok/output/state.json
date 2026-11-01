@@ -1463,7 +1463,8 @@
     "44:18",
     "44:19",
     "44:20",
-    "44:21"
+    "44:21",
+    "2:187"
   ],
   "generated": [
     {
@@ -5025,6 +5026,14 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/044_017_Ad-Dukhaan.mp4",
       "created_at": 1793507994
+    },
+    {
+      "ayah_key": "2:187",
+      "ayah_keys": [
+        "2:187"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/002_187_Al-Baqara.mp4",
+      "created_at": 1793544395
     }
   ]
 }
