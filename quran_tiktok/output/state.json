@@ -1458,7 +1458,12 @@
     "78:9",
     "78:10",
     "78:11",
-    "78:12"
+    "78:12",
+    "44:17",
+    "44:18",
+    "44:19",
+    "44:20",
+    "44:21"
   ],
   "generated": [
     {
@@ -5008,6 +5013,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/078_001_An-Naba.mp4",
       "created_at": 1793488663
+    },
+    {
+      "ayah_key": "44:17",
+      "ayah_keys": [
+        "44:17",
+        "44:18",
+        "44:19",
+        "44:20",
+        "44:21"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/044_017_Ad-Dukhaan.mp4",
+      "created_at": 1793507994
     }
   ]
 }
