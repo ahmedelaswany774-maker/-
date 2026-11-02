@@ -1476,7 +1476,10 @@
     "96:7",
     "96:8",
     "96:9",
-    "96:10"
+    "96:10",
+    "41:42",
+    "41:43",
+    "41:44"
   ],
   "generated": [
     {
@@ -5065,6 +5068,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/095_007_At-Tin.mp4",
       "created_at": 1793564082
+    },
+    {
+      "ayah_key": "41:42",
+      "ayah_keys": [
+        "41:42",
+        "41:43",
+        "41:44"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/041_042_Fussilat.mp4",
+      "created_at": 1793594514
     }
   ]
 }
