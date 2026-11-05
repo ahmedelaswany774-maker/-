@@ -1522,7 +1522,10 @@
     "21:86",
     "21:87",
     "21:88",
-    "21:89"
+    "21:89",
+    "2:59",
+    "2:60",
+    "2:61"
   ],
   "generated": [
     {
@@ -5227,6 +5230,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/021_086_Al-Anbiyaa.mp4",
       "created_at": 1793879681
+    },
+    {
+      "ayah_key": "2:59",
+      "ayah_keys": [
+        "2:59",
+        "2:60",
+        "2:61"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/002_059_Al-Baqara.mp4",
+      "created_at": 1793907327
     }
   ]
 }
