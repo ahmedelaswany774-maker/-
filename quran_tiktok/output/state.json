@@ -1539,7 +1539,11 @@
     "56:73",
     "56:74",
     "56:75",
-    "56:76"
+    "56:76",
+    "28:64",
+    "28:65",
+    "28:66",
+    "28:67"
   ],
   "generated": [
     {
@@ -5289,6 +5293,17 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/056_065_Al-Waaqia.mp4",
       "created_at": 1793991447
+    },
+    {
+      "ayah_key": "28:64",
+      "ayah_keys": [
+        "28:64",
+        "28:65",
+        "28:66",
+        "28:67"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/028_064_Al-Qasas.mp4",
+      "created_at": 1794009533
     }
   ]
 }
