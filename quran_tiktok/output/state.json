@@ -1525,7 +1525,12 @@
     "21:89",
     "2:59",
     "2:60",
-    "2:61"
+    "2:61",
+    "18:10",
+    "18:11",
+    "18:12",
+    "18:13",
+    "18:14"
   ],
   "generated": [
     {
@@ -5240,6 +5245,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/002_059_Al-Baqara.mp4",
       "created_at": 1793907327
+    },
+    {
+      "ayah_key": "18:10",
+      "ayah_keys": [
+        "18:10",
+        "18:11",
+        "18:12",
+        "18:13",
+        "18:14"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/018_010_Al-Kahf.mp4",
+      "created_at": 1793926112
     }
   ]
 }
