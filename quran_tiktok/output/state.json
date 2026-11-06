@@ -1530,7 +1530,10 @@
     "18:11",
     "18:12",
     "18:13",
-    "18:14"
+    "18:14",
+    "29:12",
+    "29:13",
+    "29:14"
   ],
   "generated": [
     {
@@ -5257,6 +5260,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/018_010_Al-Kahf.mp4",
       "created_at": 1793926112
+    },
+    {
+      "ayah_key": "29:12",
+      "ayah_keys": [
+        "29:12",
+        "29:13",
+        "29:14"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/029_012_Al-Ankaboot.mp4",
+      "created_at": 1793965865
     }
   ]
 }
