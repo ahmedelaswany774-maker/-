@@ -1543,7 +1543,9 @@
     "28:64",
     "28:65",
     "28:66",
-    "28:67"
+    "28:67",
+    "81:21",
+    "81:22"
   ],
   "generated": [
     {
@@ -5304,6 +5306,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/028_064_Al-Qasas.mp4",
       "created_at": 1794009533
+    },
+    {
+      "ayah_key": "81:21",
+      "ayah_keys": [
+        "81:21",
+        "81:22"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/081_021_At-Takwir.mp4",
+      "created_at": 1794029934
     }
   ]
 }
