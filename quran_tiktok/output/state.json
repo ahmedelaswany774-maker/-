@@ -1608,7 +1608,10 @@
     "17:88",
     "33:26",
     "33:27",
-    "33:28"
+    "33:28",
+    "42:6",
+    "42:7",
+    "42:8"
   ],
   "generated": [
     {
@@ -5546,6 +5549,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/033_026_Al-Ahzaab.mp4",
       "created_at": 1794531286
+    },
+    {
+      "ayah_key": "42:6",
+      "ayah_keys": [
+        "42:6",
+        "42:7",
+        "42:8"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/042_006_Ash-Shura.mp4",
+      "created_at": 1794570851
     }
   ]
 }
