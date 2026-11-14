@@ -1629,7 +1629,15 @@
     "39:13",
     "39:14",
     "39:15",
-    "39:16"
+    "39:16",
+    "56:2",
+    "56:3",
+    "56:4",
+    "56:5",
+    "56:6",
+    "56:7",
+    "56:8",
+    "56:9"
   ],
   "generated": [
     {
@@ -5623,6 +5631,21 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/039_012_Az-Zumar.mp4",
       "created_at": 1794678140
+    },
+    {
+      "ayah_key": "56:2",
+      "ayah_keys": [
+        "56:2",
+        "56:3",
+        "56:4",
+        "56:5",
+        "56:6",
+        "56:7",
+        "56:8",
+        "56:9"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/056_002_Al-Waaqia.mp4",
+      "created_at": 1794699599
     }
   ]
 }
