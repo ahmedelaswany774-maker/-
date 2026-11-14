@@ -1624,7 +1624,12 @@
     "2:74",
     "3:85",
     "3:86",
-    "3:87"
+    "3:87",
+    "39:12",
+    "39:13",
+    "39:14",
+    "39:15",
+    "39:16"
   ],
   "generated": [
     {
@@ -5606,6 +5611,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/003_085_Aal-i-Imraan.mp4",
       "created_at": 1794654881
+    },
+    {
+      "ayah_key": "39:12",
+      "ayah_keys": [
+        "39:12",
+        "39:13",
+        "39:14",
+        "39:15",
+        "39:16"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/039_012_Az-Zumar.mp4",
+      "created_at": 1794678140
     }
   ]
 }
