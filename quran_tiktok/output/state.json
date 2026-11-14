@@ -1617,7 +1617,11 @@
     "38:57",
     "38:58",
     "38:59",
-    "38:60"
+    "38:60",
+    "2:68",
+    "2:72",
+    "2:73",
+    "2:74"
   ],
   "generated": [
     {
@@ -5578,6 +5582,17 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/038_055_Saad.mp4",
       "created_at": 1794597358
+    },
+    {
+      "ayah_key": "2:68",
+      "ayah_keys": [
+        "2:68",
+        "2:72",
+        "2:73",
+        "2:74"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/002_068_Al-Baqara.mp4",
+      "created_at": 1794616904
     }
   ]
 }
