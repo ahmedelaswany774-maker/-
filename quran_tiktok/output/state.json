@@ -1637,7 +1637,10 @@
     "56:6",
     "56:7",
     "56:8",
-    "56:9"
+    "56:9",
+    "20:18",
+    "20:19",
+    "20:20"
   ],
   "generated": [
     {
@@ -5646,6 +5649,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/056_002_Al-Waaqia.mp4",
       "created_at": 1794699599
+    },
+    {
+      "ayah_key": "20:18",
+      "ayah_keys": [
+        "20:18",
+        "20:19",
+        "20:20"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/020_018_Taa-Haa.mp4",
+      "created_at": 1794718901
     }
   ]
 }
