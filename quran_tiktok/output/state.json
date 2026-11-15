@@ -1643,7 +1643,12 @@
     "20:20",
     "28:27",
     "28:28",
-    "28:29"
+    "28:29",
+    "43:59",
+    "43:60",
+    "43:61",
+    "43:62",
+    "43:63"
   ],
   "generated": [
     {
@@ -5672,6 +5677,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/028_027_Al-Qasas.mp4",
       "created_at": 1794756286
+    },
+    {
+      "ayah_key": "43:59",
+      "ayah_keys": [
+        "43:59",
+        "43:60",
+        "43:61",
+        "43:62",
+        "43:63"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/043_059_Az-Zukhruf.mp4",
+      "created_at": 1794775872
     }
   ]
 }
