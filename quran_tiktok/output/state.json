@@ -1699,7 +1699,10 @@
     "15:17",
     "15:18",
     "15:23",
-    "15:24"
+    "15:24",
+    "17:6",
+    "17:7",
+    "17:8"
   ],
   "generated": [
     {
@@ -5868,6 +5871,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/015_014_Al-Hijr.mp4",
       "created_at": 1795223198
+    },
+    {
+      "ayah_key": "17:6",
+      "ayah_keys": [
+        "17:6",
+        "17:7",
+        "17:8"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/017_006_Al-Israa.mp4",
+      "created_at": 1795263022
     }
   ]
 }
