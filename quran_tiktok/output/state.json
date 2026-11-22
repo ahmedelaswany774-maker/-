@@ -1711,7 +1711,11 @@
     "45:2",
     "45:3",
     "45:4",
-    "45:5"
+    "45:5",
+    "42:38",
+    "42:39",
+    "42:40",
+    "42:45"
   ],
   "generated": [
     {
@@ -5913,6 +5917,17 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/044_059_Ad-Dukhaan.mp4",
       "created_at": 1795324921
+    },
+    {
+      "ayah_key": "42:38",
+      "ayah_keys": [
+        "42:38",
+        "42:39",
+        "42:40",
+        "42:45"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/042_038_Ash-Shura.mp4",
+      "created_at": 1795363074
     }
   ]
 }
