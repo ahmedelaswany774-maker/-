@@ -1718,7 +1718,9 @@
     "42:45",
     "16:64",
     "16:65",
-    "16:66"
+    "16:66",
+    "2:184",
+    "2:185"
   ],
   "generated": [
     {
@@ -5941,6 +5943,15 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/016_064_An-Nahl.mp4",
       "created_at": 1795383535
+    },
+    {
+      "ayah_key": "2:184",
+      "ayah_keys": [
+        "2:184",
+        "2:185"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/002_184_Al-Baqara.mp4",
+      "created_at": 1795413572
     }
   ]
 }
