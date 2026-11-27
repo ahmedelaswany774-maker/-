@@ -1752,7 +1752,10 @@
     "37:138",
     "37:139",
     "37:140",
-    "37:141"
+    "37:141",
+    "32:20",
+    "32:21",
+    "32:22"
   ],
   "generated": [
     {
@@ -6065,6 +6068,16 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/037_133_As-Saaffaat.mp4",
       "created_at": 1795726732
+    },
+    {
+      "ayah_key": "32:20",
+      "ayah_keys": [
+        "32:20",
+        "32:21",
+        "32:22"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/032_020_As-Sajda.mp4",
+      "created_at": 1795762670
     }
   ]
 }
