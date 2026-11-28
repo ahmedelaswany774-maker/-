@@ -1758,7 +1758,12 @@
     "32:22",
     "11:69",
     "11:70",
-    "11:74"
+    "11:74",
+    "78:26",
+    "78:27",
+    "78:28",
+    "78:29",
+    "78:30"
   ],
   "generated": [
     {
@@ -6091,6 +6096,18 @@
       ],
       "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/011_069_Hud.mp4",
       "created_at": 1795801933
+    },
+    {
+      "ayah_key": "78:26",
+      "ayah_keys": [
+        "78:26",
+        "78:27",
+        "78:28",
+        "78:29",
+        "78:30"
+      ],
+      "file": "/home/runner/work/-/-/quran_tiktok/output/ready_to_post/078_026_An-Naba.mp4",
+      "created_at": 1795833010
     }
   ]
 }
